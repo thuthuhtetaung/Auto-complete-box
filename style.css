@@ -1,0 +1,56 @@
+.container {
+    width: 500px;
+}
+
+body {
+    background-color: black;
+}
+
+.box {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.holderbox {
+    width: 100%;
+    background-color: white;
+}
+
+.mainTag {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+.text {
+    width: 90%;
+    text-align: left;
+}
+
+.currentStyle {
+    background-color: lightblue;
+}
+
+.change {
+    display: flex;
+    width: 475px;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 86px;
+    background-color: white;
+}
+
+.forImg {
+    width: 475px;
+    height: auto;
+}
